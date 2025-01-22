@@ -3,15 +3,15 @@
 
     End Sub
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CbbNegeri.SelectedIndexChanged
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbNegeri.SelectedIndexChanged
 
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgwJadual.CellContentClick
 
     End Sub
 
-    Private Sub RdoCashless_CheckedChanged(sender As Object, e As EventArgs) Handles RdoCashless.CheckedChanged
+    Private Sub RdoCashless_CheckedChanged(sender As Object, e As EventArgs) Handles rdoCashless.CheckedChanged
 
     End Sub
 End Class
