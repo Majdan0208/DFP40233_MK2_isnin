@@ -51,6 +51,7 @@ Partial Class Form1
         GpbJantina = New GroupBox()
         GpbBayaran = New GroupBox()
         Label8 = New Label()
+        Label9 = New Label()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         GpbJantina.SuspendLayout()
         GpbBayaran.SuspendLayout()
@@ -247,7 +248,7 @@ Partial Class Form1
         ' 
         ' DateTimePicker1
         ' 
-        DateTimePicker1.Location = New Point(504, 138)
+        DateTimePicker1.Location = New Point(527, 144)
         DateTimePicker1.Name = "DateTimePicker1"
         DateTimePicker1.Size = New Size(284, 31)
         DateTimePicker1.TabIndex = 18
@@ -321,11 +322,21 @@ Partial Class Form1
         Label8.TabIndex = 25
         Label8.Text = "Maklumat Pelajar"
         ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Location = New Point(440, 149)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(49, 25)
+        Label9.TabIndex = 26
+        Label9.Text = "Date"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(932, 730)
+        Controls.Add(Label9)
         Controls.Add(Label8)
         Controls.Add(GpbBayaran)
         Controls.Add(GpbJantina)
@@ -386,5 +397,6 @@ Partial Class Form1
     Friend WithEvents GpbJantina As GroupBox
     Friend WithEvents GpbBayaran As GroupBox
     Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 
 End Class
